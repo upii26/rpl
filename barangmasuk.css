@@ -1,0 +1,229 @@
+body{
+margin-left: 0px;
+margin-right: 0px;
+
+}
+
+header{
+	background-color: #22ACFA;
+	margin-top: -8px;
+	color: white;
+	  font-family: inter;
+	  display: flex;
+}
+
+header h1{
+  font-size: 27px;
+
+}
+
+header h3{
+	display: inline-block;
+float: right;
+margin-right: 175px;
+margin-top: 25px;
+
+}
+
+header img {
+	width: 64px;
+margin-left: 36rem;
+}
+
+	
+.menu{
+	border: 1px solid #17202A;
+	height: 564px;
+	width: 408px;
+	font-family: inter;
+	background-color:#3D4549 ;
+	color: white;
+}
+
+ .menu p{
+ 	display: inline-block;
+margin-left: 170px;
+margin-top: 1px;
+ }
+
+ .menu h3{
+ 	display: inline-block;
+margin-left: 220px;
+ }
+
+header .logo{
+	width: 50px;
+	display: flex;
+}
+
+
+ .dashboard {
+ 	height: 50px;
+width: auto;
+font-family: inter;
+background-color: #22ACFA	;
+color: white;
+text-align: center;
+margin-top: 55px;
+display: flex;
+align-items: center;
+ }
+
+ .dashboard img{
+ 	display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -145px;
+ }
+
+ .dashboard h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+
+}
+
+.barangmasuk{
+	height: 50px;
+width: auto;
+font-family: inter;
+background-color: #0075B7;
+color: white;
+text-align: center;
+margin-top: 32px;
+display: flex;
+align-items: center;
+}
+
+.barangmasuk img{
+		display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -210px;
+}
+
+.barangmasuk h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+}
+
+.logout{
+	height: 50px;
+width: auto;
+font-family: inter;
+background-color: #22ACFA;
+color: white;
+text-align: center;
+margin-top: 32px;
+display: flex;
+align-items: center;
+}
+
+.logout img{
+	display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -116px;
+}
+
+.logout h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+
+
+}
+
+
+
+.pilihan :hover{
+	background-color:#0075B7 ;
+	color: white;
+}
+.content {
+	font-family: inter;
+	display: flex;
+	margin-top: -565px;
+margin-left: 485px;
+font-size: 19px
+
+}
+
+.content p{
+display: flex;
+margin-top: 85px;
+margin-left: -353px;
+}
+
+
+.time {
+	display: flex;
+border: 1px solid #22ACFA;
+margin-top: 128px;
+margin-left: -210px;
+	width: 897px;
+	background-color: #22ACFA;
+	height: 35px;
+	}
+
+	.time p{
+		display: flex;
+		margin-left: 65px;
+	margin-top: 7px;
+	}
+
+.bln{
+	 margin-left: -149px;
+margin-top: 10px;
+width: 117px;
+height: 32px;
+border-color: #22ACFA;
+background-color: white;
+border-radius: 10px;
+display: flex
+}
+ 
+.thn {
+	margin-left: 6px;
+margin-top: -32px;
+width: 117px;
+height: 32px;
+border-color: #22ACFA;
+background-color: white;
+border-radius: 10px;
+display: flex;
+
+}
+
+.tanggal input{
+background-color: white;
+border-color: #22ACFA;
+width: 215px;
+height: 25px;
+border-radius: 10px;
+margin-left: 333px;
+margin-top: -33px;
+display: flex; 
+}
+
+.tabel{
+	margin-left: -217px;
+margin-top: 25px;
+border-color: #22ACFA;
+font-size: 16px;
+
+}
+
+.tanggal .cetakpdf{
+margin-left: 515px;
+margin-top: 38px;
+background-color: #FF3F3F;
+width: 88px;
+height: 34px;
+border-radius: 10px;
+
+}
+
+.title-toko {
+	text-align: center;
+width: -moz-available;
+
+}

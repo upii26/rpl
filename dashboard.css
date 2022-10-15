@@ -1,0 +1,193 @@
+body{
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+
+}
+
+header{
+	background-color: #22ACFA;
+	margin-top: -8px;
+	color: white;
+	  font-family: inter;
+	  display: flex;
+}
+
+header h1{
+  font-size: 27px;
+
+}
+
+header h3{
+	display: inline-block;
+float: right;
+margin-right: 175px;
+margin-top: 25px;
+
+}
+
+header img {
+	width: 64px;
+margin-left: 31rem;
+}
+
+
+
+.menu{
+	text-align: center;
+border: 1px solid #17202A;
+height: 580px;
+width: 870px;
+font-family: inter;
+background-color: #3D4549;
+color: white;
+margin-left: 235px;
+}
+
+.menu img{
+	margin-top: 15px;
+}
+
+.pilihan {
+	margin-top: -20px;
+}
+
+.pilihan :hover{
+	background-color:#0075B7 ;
+	color: white;
+	text-decoration: none;
+}
+ .barangkeluar {
+ height: 50px;
+width: 390px;
+font-family: inter;
+background-color: #22ACFA;
+color: white;
+text-align: center;
+margin-top: 45px;
+display: flex;
+align-items: center;
+margin-left: 228px;
+border-radius: 15px;
+
+ }
+
+ .barangkeluar img{
+ 	display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -179px;
+ }
+
+ .barangkeluar h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+  color: white;
+}
+
+.barangmasuk{
+height: 50px;
+width: 390px;
+font-family: inter;
+background-color: #22ACFA;
+color: white;
+text-align: center;
+margin-top: 45px;
+display: flex;
+align-items: center;
+margin-left: 228px;
+border-radius: 15px;
+}
+
+.barangmasuk img{
+		display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -181px;
+}
+
+.barangmasuk h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+  color: white;
+}
+
+.editakun {
+ height: 50px;
+width: 390px;
+font-family: inter;
+background-color: #22ACFA;
+color: white;
+text-align: center;
+margin-top: 45px;
+display: flex;
+align-items: center;
+margin-left: 228px;
+border-radius: 15px;
+
+ }
+
+ .editakun img{
+ 	display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -143px;
+ }
+
+ .editakun h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+  color: white;
+}
+
+.logout{
+	height: 50px;
+width: 390px;
+font-family: inter;
+background-color: #22ACFA;
+color: white;
+text-align: center;
+margin-top: 45px;
+display: flex;
+align-items: center;
+margin-left: 228px;
+border-radius: 15px;
+}
+
+.logout img{
+	display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -145px;
+}
+
+.logout h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+}
+
+.logout{
+height: 50px;
+width: 390px;
+font-family: inter;
+background-color: #22ACFA;
+color: white;
+text-align: center;
+margin-top: 45px;
+display: flex;
+align-items: center;
+margin-left: 228px;
+border-radius: 15px;
+}
+.logout img{
+	display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -126px;
+}
+
+.logout h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+  color: white;
+}

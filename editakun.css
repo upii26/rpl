@@ -1,0 +1,564 @@
+body{
+margin-left: 0px;
+margin-right: 0px;
+
+}
+
+header{
+	background-color: #22ACFA;
+	margin-top: -8px;
+	color: white;
+	  font-family: inter;
+	  display: flex;
+}
+
+header h1{
+  font-size: 27px;
+
+}
+
+header h3{
+	display: inline-block;
+float: right;
+margin-right: 175px;
+margin-top: 25px;
+
+}
+
+header img {
+	width: 64px;
+margin-left: 36rem;
+}
+
+	
+.menu{
+	border: 1px solid #17202A;
+	height: 564px;
+	width: 408px;
+	font-family: inter;
+	background-color:#3D4549 ;
+	color: white;
+}
+
+ .menu p{
+ 	display: inline-block;
+margin-left: 170px;
+margin-top: 1px;
+ }
+
+ .menu h3{
+ 	display: inline-block;
+margin-left: 220px;
+ }
+
+header .logo{
+	width: 50px;
+	display: flex;
+}
+
+
+ .dashboard {
+ 	height: 50px;
+width: auto;
+font-family: inter;
+background-color: #22ACFA	;
+color: white;
+text-align: center;
+margin-top: 55px;
+display: flex;
+align-items: center;
+ }
+
+ .dashboard img{
+ 	display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -145px;
+ }
+
+ .dashboard h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+
+}
+
+.editakun{
+	height: 50px;
+width: auto;
+font-family: inter;
+background-color: #0075B7;
+color: white;
+text-align: center;
+margin-top: 32px;
+display: flex;
+align-items: center;
+}
+
+.editakun img{
+		display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -134px;
+}
+
+.editakun h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+}
+
+.logout{
+	height: 50px;
+width: auto;
+font-family: inter;
+background-color: #22ACFA;
+color: white;
+text-align: center;
+margin-top: 32px;
+display: flex;
+align-items: center;
+}
+
+.logout img{
+	display: inline-block;
+margin-top: 3px;
+width: 35px;
+margin-left: -116px;
+}
+
+.logout h4 {
+ 	  margin-left: 165px;
+  display: inline-block;
+
+
+}
+
+
+
+.pilihan :hover{
+	background-color:#0075B7 ;
+	color: white;
+}
+.content {
+	font-family: inter;
+	display: flex;
+	margin-top: -565px;
+margin-left: 485px;
+font-size: 19px
+
+}
+
+.content p{
+display: flex;
+margin-top: 85px;
+margin-left: -353px;
+}
+
+
+.title-toko {
+	text-align: center;
+width: -moz-available;
+
+}
+
+.table {
+	margin-left: 482px;
+	margin-top: 35px;
+}
+
+.background {
+display: flex;
+background-color: #22ACFA;
+margin-top: -308px;
+width: 60%;
+margin-left: 494px;
+height: 30px;
+border-radius: 8px;
+}
+
+
+tr .edit{
+	margin-left: 120px; 
+	width: 55px;
+	background-color: #17C428	;
+	border-radius: 8px;
+}
+
+tr .hapus{
+	margin-left: 10px;
+	width: 55px;
+	background-color: #FF0C0C;
+	border-radius: 8px;
+}
+
+tr	.view{
+	margin-left: 10px;
+	width: 55px;
+	background-color: #5653FF;
+	border-radius: 8px;
+}
+
+.tambah-akun{
+float: right;
+display: flex;
+margin-top: 315px;
+margin-right: 40px;
+height: 30px;
+font-family: inter;
+font-size: 15px;
+background-color: #17C428;
+border-radius: 10px;
+
+}
+
+/*view-popup*/
+
+.view-popup{
+	width: 100%;
+	height: 100vh;
+	background-color: igb(0,0,0, .8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	transition: all  0.3s;
+		
+}
+.popup-content{
+	width: 50%;	
+	background-color: grey;
+	box-shadow: 0 20px 40px igba(0,0,0, .1) ;
+	border-radius: 10px;
+	opacity: 0;
+
+	position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%) scale(0.25);
+		transition: all 0.5s 0.1s;
+
+
+}
+
+.popup-content h2{
+	margin-bottom: 40px;
+	margin-left: 30px;
+	color: white;
+		
+}
+
+
+.popup-content h4{
+	text-align: center;
+	color: white;
+
+
+}
+
+.popup-content img{
+	display: flex;
+		margin-left: 292px;
+}
+
+.popup-content ul{
+	list-style: none;
+	color: white;
+}
+
+#view:target{
+	opacity: 1;
+	visibility: visible;
+}
+#view:target .popup-content{
+	opacity: 1;
+		transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+.popup-close:link,
+.popup-close:active{
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	text-decoration: none;
+	font-size: 30px;
+	display: inline-block;
+	line-height: 1;
+	transform-style: all 0.3s;
+
+}
+
+/*hapus*/
+
+.hapus-popup{
+	width: 100%;
+	height: 100vh;
+	background-color: igb(0,0,0, .8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	transition: all  0.3s;
+	color: white;
+	text-align: center;
+
+
+		
+}
+.hapus-content{
+	width: 50%;	
+	background-color: grey;
+	box-shadow: 0 20px 40px igba(0,0,0, .1) ;
+	border-radius: 10px;
+	opacity: 0;
+	height: 170px;
+
+	position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%) scale(0.25);
+		transition: all 0.5s 0.1s;
+
+
+}
+
+#hapus:target{
+	opacity: 1;
+	visibility: visible;
+}
+#hapus:target .hapus-content{
+	opacity: 1;
+		transform: translate(-50%,-50%) scale(1);
+}
+
+.button-batal{
+background-color: #BEA2A2;
+border-radius: 5px;
+width: 60px;
+height: 30px;
+
+}
+
+.button-ya{
+	margin-left: 50px;
+	border-radius: 5px;
+width: 60px;
+height: 30px;
+background-color: #5653FF;
+
+}
+
+/*notif-popup*/
+
+.notif-popup{
+	width: 100%;
+	height: 100vh;
+	background-color: igb(0,0,0, .8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	transition: all  0.3s;
+	color: white;
+	text-align: center;
+	
+}
+.notif-content{
+	width: 30%;	
+	background-color: grey;
+	box-shadow: 0 20px 40px igba(0,0,0, .1) ;
+	border-radius: 10px;
+	opacity: 0;
+	height: 170px;
+
+	position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%) scale(0.25);
+		transition: all 0.5s 0.1s;
+}
+
+#notif:target{
+	opacity: 1;
+	visibility: visible;
+}
+#notif:target .notif-content{
+	opacity: 1;
+		transform: translate(-50%,-50%) scale(1);
+}
+
+.notif-content h1{
+	text-align: center;
+	margin-top: 60px;
+}
+
+	
+/*edit-popup*/
+
+.edit-popup{
+	width: 100%;
+	height: 100vh;
+	background-color: igb(0,0,0, .8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	transition: all  0.3s;
+		
+}
+.edit-content{
+	width: 50%;	
+	background-color: grey;
+	box-shadow: 0 20px 40px igba(0,0,0, .1) ;
+	border-radius: 10px;
+	opacity: 0;
+	height: 80%;
+	position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%) scale(0.25);
+		transition: all 0.5s 0.1s;
+
+
+}
+
+.edit-content h1{
+	text-align: left;
+	margin-left: 25px;
+}
+
+.edit-content li{
+	float: left;
+	margin-left: 25px;
+	list-style: none;
+}
+
+.list li{
+	margin-left: 285px;
+}
+
+	
+.edit-content input{
+	border-radius: 7px;
+	width: 125%;	
+}
+
+#edit:target{
+	opacity: 1;
+	visibility: visible;
+}
+#edit:target .edit-content{
+	opacity: 1;
+		transform: translate(-50%,-50%) scale(1);
+}
+
+.button-cancel{
+	margin-top: 53%;
+margin-left: -85%;
+background-color: #BEA2A2;
+border-radius: 5px;
+width: 60px;
+height: 30px;
+}
+
+.button-simpan{
+	margin-left: 50px;
+	border-radius: 5px;
+width: 60px;
+height: 30px;
+background-color: #5653FF;
+}
+
+#notif-edit:target{
+	opacity: 1;
+	visibility: visible;
+}
+#notif-edit:target .notif-content{
+	opacity: 1;
+		transform: translate(-50%,-50%) scale(1);
+}
+
+/*ambah*/
+
+.tambah-popup{
+	width: 100%;
+	height: 100vh;
+	background-color: igb(0,0,0, .8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	transition: all  0.3s;
+		
+}
+.tambah-content{
+	width: 50%;	
+	background-color: grey;
+	box-shadow: 0 20px 40px igba(0,0,0, .1) ;
+	border-radius: 10px;
+	opacity: 0;
+	height: 80%;
+	position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%) scale(0.25);
+		transition: all 0.5s 0.1s;
+
+
+}
+
+.tambah-content h1{
+	text-align: left;
+	margin-left: 25px;
+}
+
+.tambah-content li{
+	float: left;
+	margin-left: 25px;
+	list-style: none;
+}
+
+.list li{
+	margin-left: 285px;
+}
+
+	
+.tambah-content input{
+	border-radius: 7px;
+	width: 125%;	
+}
+
+#tambah:target{
+	opacity: 1;
+	visibility: visible;
+}
+#tambah:target .edit-content{
+	opacity: 1;
+		transform: translate(-50%,-50%) scale(1);
+}
+
+.button-cancel{
+	margin-top: 53%;
+margin-left: -85%;
+background-color: #BEA2A2;
+border-radius: 5px;
+width: 60px;
+height: 30px;
+}
+
+.button-simpan{
+	margin-left: 50px;
+	border-radius: 5px;
+width: 60px;
+height: 30px;
+background-color: #5653FF;
+}
+
+#tambah-edit:target{
+	opacity: 1;
+	visibility: visible;
+}
+#tambah-edit:target .notif-content{
+	opacity: 1;
+		transform: translate(-50%,-50%) scale(1);
+}

@@ -1,0 +1,136 @@
+
+
+body {
+	background:url('../platfrom/Asset 2.png') ;
+	color: white;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+	font-family:Tw Cen MT Condensed Extra Bold ;
+	font-size: 30px;
+	margin-left: 30px;
+	
+}
+
+.header{
+	text-align: center;
+
+}
+
+.header h4{
+	font-size: 20px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+
+
+.header ul {
+	float: right  ;
+	margin-top: -30px;
+	margin-left: 1px;
+	font-variant: small-caps;
+	text-align: right ;
+	margin-right: 40px;
+	color: white;
+	font-size: 25px;
+
+
+}
+
+
+.header:: after{
+	content: '';
+	position: absolute;
+	background-color: white;
+	height: 3px;
+	width: 0px;
+	left: 0px;
+	bottom: -10px;
+	transition: 0.3s;
+}
+.header ul:hover{
+	color: grey;
+}
+.header ul:hover::after{
+	width: 100%;
+} 
+
+.login p {
+	font-size: 35px;
+	margin-top: 150px;
+	margin-left: 165px;	
+	font-family: Bahnschrift;
+}
+
+.lupa  {
+	font-size: 12px;
+	margin-left: 170px;
+	margin-top:-25px ;
+	font-family: Bahnschrift;
+}
+
+.username {
+	
+	margin-left: 165px;
+	margin-top: 25px;
+	width: 195px;
+	height: 50px;
+	font-family: Bahnschrift;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.password{
+	width: 195px;
+	height: 50px;
+	margin-left: 25px;
+	font-family:Bahnschrift ;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.submit{
+	margin-top: 40px;
+	margin-left: 165px;
+	width: 435px;
+	height: 60px;
+	font-size: 22px;
+	border-radius: 13px;
+		
+
+}
+
+.socialmedia {
+	margin-top: 55px ;
+	font-size: 25px;
+	margin-left:180px;
+}
+
+.socialmedia i{
+	margin-left:5px;
+	color: white;
+	
+}
+
+.jam  {
+	text-align: right;
+	margin-right: 90px;
+	margin-top: 120px;
+	font-size: 28px;
+	font-family: Bahnschrift;
+}
+
+.logo{
+	  display: flex;
+ 
+  margin-left: 874px;
+  margin-top: -490px;
+  width: 365px;
+
+}
+
+
+
